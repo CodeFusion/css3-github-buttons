@@ -3,6 +3,7 @@
 CSS3 GitHub Buttons helps you easily create GitHub-style buttons from links, buttons, and inputs.
 
 Example: [nicolasgallagher.com/lab/css3-github-buttons/](http://nicolasgallagher.com/lab/css3-github-buttons/)
+Extended Demo: [demo.codefusionlab.com/css3-github-buttons/](http://demo.codefusionlab.com/css3-github-buttons/)
 
 ## Buttons ##
 
@@ -59,6 +60,39 @@ Displaying a mixture of grouped and standalone buttons, as might be seen in a to
 A range of icons can be added (only for links and buttons) by adding a class of `icon` and any one of the provided icon classes.
 
     <a href="#" class="button icon search">Search</a>
+    
+## Disabled Buttons ##
+
+You can use  `class="disabled"` on any `<a>`, `<button>`, or `<input>` or you can use an attribute - `<input disabled="disabled">` 
+
+    <a href="#button" class="button big disabled">Link Disabled</a>
+	<input type="submit" class="button big" value="Input Disabled" disabled="disabled" />
+	<button class="button big disabled gh-green">Button Disabled</button>
+
+## No Text Buttons ##
+
+Use a button without text (link or button only - does not work on inputs)
+
+    <a href="#button" class="button icon user no-text"></a>
+    <button class="button icon user no-text"></button>
+
+
+## Colored Buttons ##
+
+There are 12 additional colors along with the default and "danger"
+
+    <a href="#button" class="button">Default</a>
+	<a href="#button" class="button gh-red">Red</a>
+	<a href="#button" class="button gh-green">Green</a>
+	<a href="#button" class="button gh-orange">Orange</a>
+	<a href="#button" class="button gh-purple">Purple</a>
+	<a href="#button" class="button gh-black">Black</a>
+	<a href="#button" class="button gh-white">White</a>
+	<a href="#button" class="button gh-pink">Pink</a>
+	<a href="#button" class="button gh-lime">Lime</a>
+	<a href="#button" class="button gh-yellow">Yellow</a>
+	<a href="#button" class="button gh-lblue">Light Blue</a>
+	<a href="#button" class="button gh-dblue">Dark Blue</a>
 
 ## Browser compatibility ##
 
