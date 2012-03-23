@@ -2,8 +2,7 @@
 
 CSS3 GitHub Buttons helps you easily create GitHub-style buttons from links, buttons, and inputs.
 
-Example: [nicolasgallagher.com/lab/css3-github-buttons/](http://nicolasgallagher.com/lab/css3-github-buttons/)
-Extended Demo: [demo.codefusionlab.com/css3-github-buttons/](http://demo.codefusionlab.com/css3-github-buttons/)
+Demo: [demo.codefusionlab.com/css3-github-buttons/](http://demo.codefusionlab.com/css3-github-buttons/)
 
 ## Buttons ##
 
@@ -24,6 +23,12 @@ If you have a button that triggers a dangerous action, like deleting data, this 
 If you wish to emphasize a specific action you can add the class `big`.
 
     <a href="#" class="button big">Create Project</a>
+ 
+## Small buttons ##
+
+Just to complement the `big` class.
+
+    <a href="#" class="button small">Create Project</a>
     
 ## Grouped buttons ##
 
@@ -79,7 +84,9 @@ Use a button without text (link or button only - does not work on inputs)
 
 ## Colored Buttons ##
 
-There are 12 additional colors along with the default and "danger"
+There are 12 additional colors along with the default and "danger".
+
+Color class names are not in relation to github colors, but a way to ensure they don't conflict with other css
 
     <a href="#button" class="button">Default</a>
 	<a href="#button" class="button gh-red">Red</a>
@@ -107,3 +114,5 @@ Public domain: [http://unlicense.org](http://unlicense.org)
 ## Acknowledgements ##
 
 Inspired by [Michael Henriksen](http://michaelhenriksen.dk)'s [CSS3 Buttons](http://github.com/michenriksen/css3buttons). Icons from [Iconic pack](http://somerandomdude.com/projects/iconic/).
+
+Forked from [necolas] (http://github.com/necolas/css3-github-buttons)
