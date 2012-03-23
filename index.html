@@ -149,6 +149,7 @@
                 <a href="#button" class="button">Inbox</a>
                 <a href="#button" class="button">Account</a>
                 <a href="#button" class="button">Logout</a>
+                <a href="#button" class="button danger">Nuke</a>
             </div>
         </div>
     </div>
@@ -183,6 +184,7 @@
                                     
                 <div class="button-group minor-group">
                     <a href="#button" class="button">Move to</a>
+                    <a href="#button" class="button danger">Danger</a>
                     <a href="#button" class="button">Labels</a>
                 </div>
             </div>
@@ -330,10 +332,107 @@
                     <td scope="row"><code>.user</code></td>
                     <td><a href="#button" class="button icon user">Add new user</a></td>
                 </tr>
+                <tr>
+                    <td scope="row"><code>.user .no-text</code></td>
+                    <td><a href="#button" class="button icon user no-text"></a></td>
+                </tr>
             </table>
         </div>
     </div>
+    <div class="example">
+		<h1>Colors</h1>
+		<table>
+			<thead>
+				<tr>
+					<th scope="col">Class</th>
+					<th scope="col">Example</th>
+					<th scope="col">Active</th>
+				</tr>
+			</thead>
+			<tr>
+				<td scope="row"><code>[none]</code></td>
+				<td><a href="#button" class="button">Default</a></td>
+				<td><a href="#button" class="button active">Default</a></td>
+			</tr>
+			<tr>
+				<td scope="row"><code>.gh-red<br />.danger</code></td>
+				<td><a href="#button" class="button gh-red">Red</a></td>
+				<td><a href="#button" class="button gh-red active">Red</a></td>
+			</tr>
+			<tr>
+				<td scope="row"><code>.gh-green</code></td>
+				<td><a href="#button" class="button gh-green">Green</a></td>
+				<td><a href="#button" class="button gh-green active">Green</a></td>
+			</tr>
+			<tr>
+				<td scope="row"><code>.gh-orange</code></td>
+				<td><a href="#button" class="button gh-orange">Orange</a></td>
+				<td><a href="#button" class="button gh-orange active">Orange</a></td>
+			</tr>
+			<tr>
+				<td scope="row"><code>.gh-purple</code></td>
+				<td><a href="#button" class="button gh-purple">Purple</a></td>
+				<td><a href="#button" class="button gh-purple active">Purple</a></td>
+			</tr>
+			<tr>
+				<td scope="row"><code>.gh-brown</code></td>
+				<td><a href="#button" class="button gh-brown">Brown</a></td>
+				<td><a href="#button" class="button gh-brown active">Brown</a></td>
+			</tr>
+			<tr>
+				<td scope="row"><code>.gh-black</code></td>
+				<td><a href="#button" class="button gh-black">Black</a></td>
+				<td><a href="#button" class="button gh-black active">Black</a></td>
+			</tr>
+			<tr>
+				<td scope="row"><code>.gh-white</code></td>
+				<td><a href="#button" class="button gh-white">White</a></td>
+				<td><a href="#button" class="button gh-white active">White</a></td>
+			</tr>
+			<tr>
+				<td scope="row"><code>.gh-pink</code></td>
+				<td><a href="#button" class="button gh-pink">Pink</a></td>
+				<td><a href="#button" class="button gh-pink active">Pink</a></td>
+			</tr>
 
+			<tr>
+				<td scope="row"><code>.gh-lime</code></td>
+				<td><a href="#button" class="button gh-lime">Lime</a></td>
+				<td><a href="#button" class="button gh-lime active">Lime</a></td>
+			</tr>
+			<tr>
+				<td scope="row"><code>.gh-yellow</code></td>
+				<td><a href="#button" class="button gh-yellow">Yellow</a></td>
+				<td><a href="#button" class="button gh-yellow active">Yellow</a></td>
+			</tr>
+			<tr>
+				<td scope="row"><code>.gh-lblue</code></td>
+				<td><a href="#button" class="button gh-lblue">Light Blue</a></td>
+				<td><a href="#button" class="button gh-lblue active">Light Blue</a></td>
+			</tr>
+			<tr>
+				<td scope="row"><code>.gh-dblue</code></td>
+				<td><a href="#button" class="button gh-dblue">Dark Blue</a></td>
+				<td><a href="#button" class="button gh-dblue active">Dark Blue</a></td>
+			</tr>
+
+		</table>
+	</div>
+    <div class="section">
+        <h2>Disabled buttons</h2>
+        <p>A visual way to show a diabled state</p>
+        
+        <div class="example">
+            <pre class="prettyprint"><code>&lt;a href="#button" class="button big disabled">Link Disabled&lt;/a>
+&lt;input type="submit" class="button big disabled" value="Input Disabled" />
+&lt;button class="button big disabled gh-green">Button Disabled&lt;/button></code></pre>
+
+            <a href="#button" class="button big disabled">Link Disabled</a>
+            <input type="submit" class="button big" value="Input Disabled" disabled="disabled" />
+            <button class="button big disabled gh-green">Button Disabled</button>
+
+        </div>
+    </div>
     <div class="section">
         <h2>Browser compatibility</h2>
         <p>Firefox 3.5+, Google Chrome, Safari 4+, IE 8+, Opera 10+.</p>
